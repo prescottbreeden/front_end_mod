@@ -1,0 +1,64 @@
+Learning Objectives:
+
+===============
+SASS, BEM, CSS3
+===============
+  - Useful tools for module:
+    - HTML color picker, 0 to 255, clip code generator
+  - Why BEM matters
+  - Best ways to prevent priority collisions
+  - Defining Blocks, Elements, and Modifiers
+  - Using BEM to organize our CSS into components
+  - Avoiding global resets
+  - Utility classes
+  - What makes SASS a great tool
+  - How SASS works: folder structure, partials, imports, caching
+  - Creating SASS variables, mixins and functions/operators
+  - @include, @if, @each, @for, @while, @function
+  - SASS data types and interpolation
+  - SASS interactive shell
+  - SASS nesting and parent selectors
+  - Extend/Inheritance @extend
+  - How to convert px to rem
+  - How rem reduces repsonsive workload when scaling
+  - Media queries with SASS
+  - Transitions, basic animations
+  - Deep dive pseudo-selectors
+    - sibling combinators, direct descendants, attribute selectors 
+    - before, after, hover, nth-child, not, valid, link, visited, 
+      target, enabled, disabled, checked, required
+    - chaining pseudo selectors
+    - creating pseudoelements (e.g. radio button)
+    - first-letter, first-line, 
+  - Browser-oriented development
+  - CSS debugging tricks
+  - Display and Position deep dive
+  - Float grid with clear fixes
+  - Flexbox
+  - CSS Grid
+  - Input styling 
+  - HTML5 regex and CSS validation
+  - Clip Path
+  - Checkbox hack
+
+==========
+Animations
+==========
+  - Animations and keyframes
+  - SVG elements in place of icons
+  - SVG animation
+
+=============
+Accessibility
+=============
+  - Accessibility
+
+=============
+Canvas and JS
+=============
+  - Canvas elements
+  - Canvas animation frames
+  - Javascript classes refresh
+  - D3
+
+
