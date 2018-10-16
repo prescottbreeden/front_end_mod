@@ -1,11 +1,11 @@
-from flask import Flask, send_from_directory
-import os
-app = Flask(__name__)
+from flask import Flask, render_template
+app = Flask(__name__, template_folder='dist')
 
 
-@app.route('/')
-def index():
-    return send_from_directory('./front_end/public', 'index.html')
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def index(path):
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
